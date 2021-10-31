@@ -13,9 +13,9 @@ from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.backends.backend_qt5agg import NavigationToolbar2QT as NavigationToolbar
 
 from data import MarketDB
-from strategy.MACD import MACD
-from strategy.OHLC import OHLC
-from strategy.BollingerBand import BollingerBand
+from MACD import MACD
+from OHLC import OHLC
+from BollingerBand import BollingerBand
 
 
 class MainWindow(QMainWindow):
